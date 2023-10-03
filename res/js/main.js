@@ -48,8 +48,7 @@ buyg.onclick = () => {
     earnedcookies+= 5
     upgradecostg +=50
     buyg.innerText = "Buy upgrade: " + upgradecostg
-    }
-    
+    }  
 }
 buyc.onclick = () => {
     if (count >= upgradecostc){
